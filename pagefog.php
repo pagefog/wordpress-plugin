@@ -1,4 +1,14 @@
 <?php
+/**
+ * Plugin Name: Pagefog
+ * Plugin URI: http://wordpress.org/plugins/userdeck
+ * Description: Enables hosting link back to Pagefog.
+ * Version: 1.0
+ * Author: Pagefog
+ * Author URI: http://pagefog.com
+ */
+
+defined( 'ABSPATH' ) or die();
 
 if ( is_admin() ) {
 	add_filter( 'admin_footer_text', 'pagefog_poweredby_credit', 11 );
