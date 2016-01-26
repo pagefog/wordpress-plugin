@@ -29,7 +29,7 @@ function pagefog_link($title = 'Pagefog') {
 }
 
 function pagefog_meta_poweredby() {
-	return pagefog_link();
+	return '<li><a href="https://wordpress.org">WordPress.org</a></li><li>'.pagefog_link().'</li>';
 }
 
 function pagefog_poweredby_credit() {
