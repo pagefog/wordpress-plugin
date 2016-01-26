@@ -33,5 +33,5 @@ function pagefog_meta_poweredby() {
 }
 
 function pagefog_poweredby_credit() {
-	return pagefog_link('Hosted by Pagefog');
+	echo pagefog_link('Hosted by Pagefog');
 }
