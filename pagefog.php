@@ -24,6 +24,12 @@ else {
 	add_action( 'twentysixteen_credits', 'pagefog_poweredby_credit' );
 }
 
+$mail_config = __DIR__.'/mail.php';
+
+if (file_exists($mail_config)) {
+        require_once $mail_config;
+}
+
 function pagefog_link($title = 'Pagefog') {
 	return '<a href="http://pagefog.com" target="_blank">'.$title.'</a>';
 }
