@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Pagefog
- * Plugin URI: http://wordpress.org/plugins/userdeck
+ * Plugin URI: https://wordpress.org/plugins/pagefog
  * Description: Enables hosting link back to Pagefog.
  * Version: 1.0
  * Author: Pagefog
