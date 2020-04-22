@@ -5,7 +5,7 @@
  * Description: Enables hosting link back to Pagefog.
  * Version: 1.0
  * Author: Pagefog
- * Author URI: http://pagefog.com
+ * Author URI: https://pagefog.com
  */
 
 defined( 'ABSPATH' ) or die();
@@ -31,7 +31,7 @@ if (file_exists($mail_config)) {
 }
 
 function pagefog_link($title = 'Pagefog') {
-	return '<a href="http://pagefog.com" target="_blank">'.$title.'</a>';
+	return '<a href="https://pagefog.com" target="_blank">'.$title.'</a>';
 }
 
 function pagefog_meta_poweredby() {
